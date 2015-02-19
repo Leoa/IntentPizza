@@ -24,11 +24,26 @@ public class IntentPizzaLoginPageObject extends LaunchIntentPizzaTestCases {
 	@FindBy(name="commit")
 	public WebElement buttonLogin;
 	
+	@FindBy(linkText="Order a pizza")
+	public WebElement orderPizzaLink;
+	
+	public void Login(String username, String password){
+		 // login
+		 
+		 fieldEmailLogin.sendKeys(username);
+		 fieldPasswordLogin.sendKeys(password);
+		 buttonLogin.click();
+		 
+	}
+	
+	public void clickOrderPizzaLink(){
+		orderPizzaLink.click();	
+	}
 	
 	//init objects on the page
-		public IntentPizzaLoginPageObject(WebDriver driver){
+	public IntentPizzaLoginPageObject(WebDriver driver){
 			PageFactory.initElements(driver, this);
-		}
+	}
 
 }
 

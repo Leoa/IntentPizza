@@ -1,10 +1,6 @@
 package util;
 
-import java.sql.Driver;
 import java.util.concurrent.TimeUnit;
-
-import net.intentmedia.internal.pizzaintent.core.LaunchIntentPizzaTestCases;
-
 import org.openqa.selenium.WebDriver;
 
 public class CommonUtil{
