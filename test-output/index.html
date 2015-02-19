@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Order_Intent_Pizza_Test">
-              <span class="suite-name border-passed">Order Intent Pizza Test</span>
+              <span class="suite-name border-failed">Order Intent Pizza Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">15 methods, 2 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Order_Intent_Pizza_Test" class="hide-methods failed suite-Order_Intent_Pizza_Test"> (hide)</a> <!-- hide-methods failed suite-Order_Intent_Pizza_Test -->
+                      <a href="#" panel-name="suite-Order_Intent_Pizza_Test" class="show-methods failed suite-Order_Intent_Pizza_Test"> (show)</a> <!-- show-methods failed suite-Order_Intent_Pizza_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Order_Intent_Pizza_Test">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Order_Intent_Pizza_Test" title="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza" hash-for-method="OrderConfirmPizzaTest">OrderConfirmPizzaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Order_Intent_Pizza_Test" title="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza" hash-for-method="OrderSummaryPizzaTest">OrderSummaryPizzaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Order_Intent_Pizza_Test -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -144,6 +163,26 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Order_Intent_Pizza_Test" title="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza" hash-for-method="NewPizzaOrderTest">NewPizzaOrderTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Order_Intent_Pizza_Test" title="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza" hash-for-method="OrderConfirmPizzaTest">OrderConfirmPizzaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Order_Intent_Pizza_Test" title="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza" hash-for-method="OrderConfirmPizzaTest">OrderConfirmPizzaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Order_Intent_Pizza_Test" title="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza" hash-for-method="OrderSummaryPizzaTest">OrderSummaryPizzaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Order_Intent_Pizza_Test" title="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza" hash-for-method="OrderSummaryPizzaTest">OrderSummaryPizzaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Order_Intent_Pizza_Test -->
                   </li>
                 </ul>
@@ -156,6 +195,122 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Order_Intent_Pizza_Test" class="panel Order_Intent_Pizza_Test">
+          <div class="suite-Order_Intent_Pizza_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">net.intentmedia.internal.pizzaintent.tests.TestOrderPizza</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderConfirmPizzaTest">
+                  </a> <!-- OrderConfirmPizzaTest -->
+                  <span class="method-name">OrderConfirmPizzaTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with id == pizza_name (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;Aspire&apos;, ip: &apos;68.194.81.240&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
+Session ID: 81f65e98-dfb6-4fe9-8d4f-b142e0108834
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:28081/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at $Proxy10.sendKeys(Unknown Source)
+	at net.intentmedia.internal.pizzaintent.pageobject.IntentPizzaNewPizzaOrderPageObject.CreateNewPizza(IntentPizzaNewPizzaOrderPageObject.java:28)
+	at net.intentmedia.internal.pizzaintent.tests.TestOrderPizza.OrderConfirmPizzaTest(TestOrderPizza.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderSummaryPizzaTest">
+                  </a> <!-- OrderSummaryPizzaTest -->
+                  <span class="method-name">OrderSummaryPizzaTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with link text == Order a pizza (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;Aspire&apos;, ip: &apos;68.194.81.240&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_25&apos;
+Session ID: 4169c514-62ce-40b3-a99f-2b07cced65e6
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:21293/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at $Proxy10.click(Unknown Source)
+	at net.intentmedia.internal.pizzaintent.pageobject.IntentPizzaAccountPageObject.clickOrderPizzaLink(IntentPizzaAccountPageObject.java:30)
+	at net.intentmedia.internal.pizzaintent.tests.TestOrderPizza.OrderSummaryPizzaTest(TestOrderPizza.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Order_Intent_Pizza_Test-class-failed -->
           <div class="suite-Order_Intent_Pizza_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -223,6 +378,34 @@
                   <a name="NewPizzaOrderTest">
                   </a> <!-- NewPizzaOrderTest -->
                   <span class="method-name">NewPizzaOrderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderConfirmPizzaTest">
+                  </a> <!-- OrderConfirmPizzaTest -->
+                  <span class="method-name">OrderConfirmPizzaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderConfirmPizzaTest">
+                  </a> <!-- OrderConfirmPizzaTest -->
+                  <span class="method-name">OrderConfirmPizzaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderSummaryPizzaTest">
+                  </a> <!-- OrderSummaryPizzaTest -->
+                  <span class="method-name">OrderSummaryPizzaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderSummaryPizzaTest">
+                  </a> <!-- OrderSummaryPizzaTest -->
+                  <span class="method-name">OrderSummaryPizzaTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -298,48 +481,72 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'NewPizzaOrderTest')
+data.setCell(0, 1, 'OrderConfirmPizzaTest')
 data.setCell(0, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
-data.setCell(0, 3, 9471);
+data.setCell(0, 3, 20808);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'NewPizzaOrderTest')
+data.setCell(1, 1, 'OrderSummaryPizzaTest')
 data.setCell(1, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
-data.setCell(1, 3, 5982);
+data.setCell(1, 3, 14967);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'AccountPageClickToOrderPizzaTest')
+data.setCell(2, 1, 'NewPizzaOrderTest')
 data.setCell(2, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
-data.setCell(2, 3, 5388);
+data.setCell(2, 3, 12436);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'AccountPageClickToOrderPizzaTest')
+data.setCell(3, 1, 'OrderSummaryPizzaTest')
 data.setCell(3, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
-data.setCell(3, 3, 4827);
+data.setCell(3, 3, 9112);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'NewPizzaOrderTest')
+data.setCell(4, 1, 'OrderConfirmPizzaTest')
 data.setCell(4, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
-data.setCell(4, 3, 4441);
+data.setCell(4, 3, 7733);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'LoginTest')
+data.setCell(5, 1, 'NewPizzaOrderTest')
 data.setCell(5, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
-data.setCell(5, 3, 4271);
+data.setCell(5, 3, 7152);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'AccountPageClickToOrderPizzaTest')
+data.setCell(6, 1, 'OrderSummaryPizzaTest')
 data.setCell(6, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
-data.setCell(6, 3, 4026);
+data.setCell(6, 3, 6931);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'LoginTest')
+data.setCell(7, 1, 'AccountPageClickToOrderPizzaTest')
 data.setCell(7, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
-data.setCell(7, 3, 3987);
+data.setCell(7, 3, 6669);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'LoginTest')
+data.setCell(8, 1, 'OrderConfirmPizzaTest')
 data.setCell(8, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
-data.setCell(8, 3, 3966);
+data.setCell(8, 3, 6632);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'NewPizzaOrderTest')
+data.setCell(9, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
+data.setCell(9, 3, 6452);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'AccountPageClickToOrderPizzaTest')
+data.setCell(10, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
+data.setCell(10, 3, 5458);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LoginTest')
+data.setCell(11, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
+data.setCell(11, 3, 5135);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'LoginTest')
+data.setCell(12, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
+data.setCell(12, 3, 4262);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'AccountPageClickToOrderPizzaTest')
+data.setCell(13, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
+data.setCell(13, 3, 4145);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'LoginTest')
+data.setCell(14, 2, 'net.intentmedia.internal.pizzaintent.tests.TestOrderPizza')
+data.setCell(14, 3, 3708);
 window.suiteTableData['Order_Intent_Pizza_Test']= { tableData: data, tableDiv: 'times-div-Order_Intent_Pizza_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Order_Intent_Pizza_Test">
               </div> <!-- times-div-Order_Intent_Pizza_Test -->
             </div> <!-- times-div -->
@@ -367,7 +574,7 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">net.intentmedia.internal.pizzaintent.tests.TestOrderPizza</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">launchBrowser(Chrome)</span>
+                <span class="method-name">launchBrowser(IE)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
@@ -375,104 +582,180 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">launchBrowser(IE)</span>
+                <span class="method-name">launchBrowser(Chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">4333 ms</span>
+                <span class="method-start">4360 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">4556 ms</span>
+                <span class="method-start">4629 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">8300 ms</span>
+                <span class="method-start">8624 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">8828 ms</span>
+                <span class="method-start">9765 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(IE)</span>
-                <span class="method-start">10120 ms</span>
+                <span class="method-start">10812 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(Chrome)</span>
-                <span class="method-start">11066 ms</span>
+                <span class="method-start">11465 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AccountPageClickToOrderPizzaTest</span>
+                <span class="method-start">15308 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">12268 ms</span>
+                <span class="method-start">15804 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AccountPageClickToOrderPizzaTest</span>
-                <span class="method-start">14284 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">AccountPageClickToOrderPizzaTest</span>
-                <span class="method-start">14526 ms</span>
+                <span class="method-start">17239 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">16256 ms</span>
+                <span class="method-start">19455 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">19514 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(FF)</span>
-                <span class="method-start">16787 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">19112 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">19915 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchBrowser(IE)</span>
-                <span class="method-start">20153 ms</span>
+                <span class="method-start">20181 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(Chrome)</span>
-                <span class="method-start">22949 ms</span>
+                <span class="method-start">22392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">23909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(IE)</span>
+                <span class="method-start">24990 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">NewPizzaOrderTest</span>
-                <span class="method-start">23162 ms</span>
+                <span class="method-start">26308 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">NewPizzaOrderTest</span>
-                <span class="method-start">26367 ms</span>
+                <span class="method-start">29772 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">32761 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">AccountPageClickToOrderPizzaTest</span>
-                <span class="method-start">28016 ms</span>
+                <span class="method-start">34162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome)</span>
+                <span class="method-start">34911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderSummaryPizzaTest</span>
+                <span class="method-start">37776 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">32042 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">32350 ms</span>
+                <span class="method-start">39621 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(FF)</span>
-                <span class="method-start">32616 ms</span>
+                <span class="method-start">40184 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">32635 ms</span>
+                <span class="method-start">42209 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(IE)</span>
+                <span class="method-start">43233 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">NewPizzaOrderTest</span>
-                <span class="method-start">41785 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">OrderSummaryPizzaTest</span>
+                <span class="method-start">46523 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">46227 ms</span>
+                <span class="method-start">46889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome)</span>
+                <span class="method-start">49673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderConfirmPizzaTest</span>
+                <span class="method-start">53010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NewPizzaOrderTest</span>
+                <span class="method-start">53797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">60744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">60950 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">61497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(FF)</span>
+                <span class="method-start">61555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(IE)</span>
+                <span class="method-start">62532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">OrderConfirmPizzaTest</span>
+                <span class="method-start">65601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OrderSummaryPizzaTest</span>
+                <span class="method-start">71776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">78707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(FF)</span>
+                <span class="method-start">79126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">86413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">OrderConfirmPizzaTest</span>
+                <span class="method-start">87064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">93697 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

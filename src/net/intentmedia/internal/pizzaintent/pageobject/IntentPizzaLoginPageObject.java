@@ -27,9 +27,12 @@ public class IntentPizzaLoginPageObject extends LaunchIntentPizzaTestCases {
 	@FindBy(linkText="Order a pizza")
 	public WebElement orderPizzaLink;
 	
+	@FindBy(xpath="//html/body/img")
+	public WebElement LogoImage;
+	
 	public void Login(String username, String password){
 		 // login
-		 
+		 LogoImage.isDisplayed();
 		 fieldEmailLogin.sendKeys(username);
 		 fieldPasswordLogin.sendKeys(password);
 		 buttonLogin.click();

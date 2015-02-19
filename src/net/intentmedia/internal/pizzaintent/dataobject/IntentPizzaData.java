@@ -46,7 +46,8 @@ public class IntentPizzaData {
 		public static Object[][] getLoginData(){
 			return new Object[][]{
 					
-					{"leondria.barbee@gmail.com","pizza1122"}};
+				{"leondria.barbee@gmail.com","pizza","http://intent-pizza.internal.intentmedia.net:8080/"}
+			};
 		}
 
 

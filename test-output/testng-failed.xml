@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite verbose="3" name="Failed suite [Order Intent Pizza Test]" parallel="tests">
+  <parameter name="browser" value="IE"/>
+  <test name="Test in IE(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
     <classes>
       <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza">
         <methods>
-          <include name="LoginTest"/>
-          <include name="AccountPageClickToOrderPizzaTest"/>
-          <include name="NewPizzaOrderTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="OrderConfirmPizzaTest"/>
           <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="OrderSummaryPizzaTest"/>
         </methods>
       </class> <!-- net.intentmedia.internal.pizzaintent.tests.TestOrderPizza -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test in IE(failed) -->
+</suite> <!-- Failed suite [Order Intent Pizza Test] -->
