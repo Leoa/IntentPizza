@@ -59,6 +59,7 @@ public class LaunchIntentPizzaTestCases {
 	   CommonUtil cu = new CommonUtil();
 	   cu.MaxWindow(driver);
 	   cu.WaitForIt(driver);
+	  
 		
 	}
 	
@@ -69,5 +70,7 @@ public class LaunchIntentPizzaTestCases {
 		driver.quit();
 		
 	}
+	
+	
 
 }
