@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Order Intent Pizza Test" verbose="3" parallel="tests">
+   <test name="Test in FF">
+       <parameter name="browser" value="FF"></parameter>
+       <classes>
+           <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza"/>
+       </classes>
+   </test>
+   <test name="Test in Chrome">
+       <parameter name="browser" value="Chrome"></parameter>
+       <classes>
+           <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza"/>
+       </classes>
+    </test>
+    <test name="Test in IE">
+       <parameter name="browser" value="IE"></parameter>
+       <classes>
+           <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza"/>
+       </classes>
+       </test>  
+</suite>
