@@ -12,7 +12,7 @@ public class IntentPizzaAccountPageObject extends LaunchIntentPizzaTestCases {
 	
 	@FindBy(linkText="Order a pizza")
 	public WebElement orderPizzaLink;
-	
+
 	@FindBy(linkText="Show ordered pizzas")
 	public WebElement showOrderPizzaLink;
 

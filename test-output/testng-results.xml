@@ -2,172 +2,134 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Order Intent Pizza Test" duration-ms="47552" started-at="2015-02-19T17:52:09Z" finished-at="2015-02-19T17:52:56Z">
+  <suite name="Order Intent Pizza Test" duration-ms="46605" started-at="2015-02-19T18:02:26Z" finished-at="2015-02-19T18:03:12Z">
     <groups>
     </groups>
-    <test name="Test in Chrome" duration-ms="31807" started-at="2015-02-19T17:52:09Z" finished-at="2015-02-19T17:52:40Z">
+    <test name="Test in IE" duration-ms="33715" started-at="2015-02-19T18:02:26Z" finished-at="2015-02-19T18:02:59Z">
       <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@37eb2c1b]" name="launchBrowser" is-config="true" duration-ms="4316" started-at="2015-02-19T12:52:09Z" finished-at="2015-02-19T12:52:13Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7c29e357]" name="launchBrowser" is-config="true" duration-ms="4556" started-at="2015-02-19T13:02:26Z" finished-at="2015-02-19T13:02:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[IE]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@37eb2c1b]" name="LoginTest" duration-ms="3350" started-at="2015-02-19T12:52:13Z" finished-at="2015-02-19T12:52:16Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7c29e357]" name="LoginTest" duration-ms="4271" started-at="2015-02-19T13:02:30Z" finished-at="2015-02-19T13:02:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@37eb2c1b]" name="closeBrowser" is-config="true" duration-ms="2974" started-at="2015-02-19T12:52:16Z" finished-at="2015-02-19T12:52:19Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7c29e357]" name="closeBrowser" is-config="true" duration-ms="1290" started-at="2015-02-19T13:02:35Z" finished-at="2015-02-19T13:02:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@37eb2c1b]" name="launchBrowser" is-config="true" duration-ms="4061" started-at="2015-02-19T12:52:19Z" finished-at="2015-02-19T12:52:23Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7c29e357]" name="launchBrowser" is-config="true" duration-ms="4164" started-at="2015-02-19T13:02:36Z" finished-at="2015-02-19T13:02:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[IE]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="AccountPageClickToOrderPizzaTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@37eb2c1b]" name="AccountPageClickToOrderPizzaTest" duration-ms="3531" started-at="2015-02-19T12:52:23Z" finished-at="2015-02-19T12:52:27Z">
+        <test-method status="PASS" signature="AccountPageClickToOrderPizzaTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7c29e357]" name="AccountPageClickToOrderPizzaTest" duration-ms="4827" started-at="2015-02-19T13:02:40Z" finished-at="2015-02-19T13:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountPageClickToOrderPizzaTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@37eb2c1b]" name="closeBrowser" is-config="true" duration-ms="2539" started-at="2015-02-19T12:52:27Z" finished-at="2015-02-19T12:52:29Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7c29e357]" name="closeBrowser" is-config="true" duration-ms="1040" started-at="2015-02-19T13:02:45Z" finished-at="2015-02-19T13:02:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@37eb2c1b]" name="launchBrowser" is-config="true" duration-ms="3707" started-at="2015-02-19T12:52:29Z" finished-at="2015-02-19T12:52:33Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7c29e357]" name="launchBrowser" is-config="true" duration-ms="3009" started-at="2015-02-19T13:02:46Z" finished-at="2015-02-19T13:02:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[IE]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="NewPizzaOrderTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@37eb2c1b]" name="NewPizzaOrderTest" duration-ms="4702" started-at="2015-02-19T12:52:33Z" finished-at="2015-02-19T12:52:38Z">
+        <test-method status="PASS" signature="NewPizzaOrderTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7c29e357]" name="NewPizzaOrderTest" duration-ms="9471" started-at="2015-02-19T13:02:49Z" finished-at="2015-02-19T13:02:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewPizzaOrderTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@37eb2c1b]" name="closeBrowser" is-config="true" duration-ms="2600" started-at="2015-02-19T12:52:38Z" finished-at="2015-02-19T12:52:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- net.intentmedia.internal.pizzaintent.tests.TestOrderPizza -->
-    </test> <!-- Test in Chrome -->
-    <test name="Test in IE" duration-ms="37802" started-at="2015-02-19T17:52:09Z" finished-at="2015-02-19T17:52:46Z">
-      <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@220ca470]" name="launchBrowser" is-config="true" duration-ms="4329" started-at="2015-02-19T12:52:09Z" finished-at="2015-02-19T12:52:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@220ca470]" name="LoginTest" duration-ms="5960" started-at="2015-02-19T12:52:13Z" finished-at="2015-02-19T12:52:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@220ca470]" name="closeBrowser" is-config="true" duration-ms="1131" started-at="2015-02-19T12:52:19Z" finished-at="2015-02-19T12:52:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@220ca470]" name="launchBrowser" is-config="true" duration-ms="4192" started-at="2015-02-19T12:52:20Z" finished-at="2015-02-19T12:52:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="AccountPageClickToOrderPizzaTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@220ca470]" name="AccountPageClickToOrderPizzaTest" duration-ms="5821" started-at="2015-02-19T12:52:24Z" finished-at="2015-02-19T12:52:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AccountPageClickToOrderPizzaTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@220ca470]" name="closeBrowser" is-config="true" duration-ms="1035" started-at="2015-02-19T12:52:30Z" finished-at="2015-02-19T12:52:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@220ca470]" name="launchBrowser" is-config="true" duration-ms="3468" started-at="2015-02-19T12:52:31Z" finished-at="2015-02-19T12:52:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="NewPizzaOrderTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@220ca470]" name="NewPizzaOrderTest" duration-ms="10777" started-at="2015-02-19T12:52:35Z" finished-at="2015-02-19T12:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NewPizzaOrderTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@220ca470]" name="closeBrowser" is-config="true" duration-ms="1063" started-at="2015-02-19T12:52:45Z" finished-at="2015-02-19T12:52:46Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7c29e357]" name="closeBrowser" is-config="true" duration-ms="1056" started-at="2015-02-19T13:02:58Z" finished-at="2015-02-19T13:02:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- net.intentmedia.internal.pizzaintent.tests.TestOrderPizza -->
     </test> <!-- Test in IE -->
-    <test name="Test in FF" duration-ms="47552" started-at="2015-02-19T17:52:09Z" finished-at="2015-02-19T17:52:56Z">
+    <test name="Test in Chrome" duration-ms="35114" started-at="2015-02-19T18:02:26Z" finished-at="2015-02-19T18:03:01Z">
       <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7a5e1077]" name="launchBrowser" is-config="true" duration-ms="11520" started-at="2015-02-19T12:52:09Z" finished-at="2015-02-19T12:52:20Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@25cd0888]" name="launchBrowser" is-config="true" duration-ms="4333" started-at="2015-02-19T13:02:26Z" finished-at="2015-02-19T13:02:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FF]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7a5e1077]" name="LoginTest" duration-ms="4815" started-at="2015-02-19T12:52:20Z" finished-at="2015-02-19T12:52:25Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@25cd0888]" name="LoginTest" duration-ms="3966" started-at="2015-02-19T13:02:30Z" finished-at="2015-02-19T13:02:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7a5e1077]" name="closeBrowser" is-config="true" duration-ms="652" started-at="2015-02-19T12:52:25Z" finished-at="2015-02-19T12:52:26Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@25cd0888]" name="closeBrowser" is-config="true" duration-ms="2764" started-at="2015-02-19T13:02:34Z" finished-at="2015-02-19T13:02:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7a5e1077]" name="launchBrowser" is-config="true" duration-ms="11362" started-at="2015-02-19T12:52:26Z" finished-at="2015-02-19T12:52:37Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@25cd0888]" name="launchBrowser" is-config="true" duration-ms="3460" started-at="2015-02-19T13:02:37Z" finished-at="2015-02-19T13:02:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FF]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="AccountPageClickToOrderPizzaTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7a5e1077]" name="AccountPageClickToOrderPizzaTest" duration-ms="4425" started-at="2015-02-19T12:52:37Z" finished-at="2015-02-19T12:52:41Z">
+        <test-method status="PASS" signature="AccountPageClickToOrderPizzaTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@25cd0888]" name="AccountPageClickToOrderPizzaTest" duration-ms="5388" started-at="2015-02-19T13:02:40Z" finished-at="2015-02-19T13:02:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountPageClickToOrderPizzaTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7a5e1077]" name="closeBrowser" is-config="true" duration-ms="513" started-at="2015-02-19T12:52:41Z" finished-at="2015-02-19T12:52:42Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@25cd0888]" name="closeBrowser" is-config="true" duration-ms="3032" started-at="2015-02-19T13:02:46Z" finished-at="2015-02-19T13:02:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7a5e1077]" name="launchBrowser" is-config="true" duration-ms="9037" started-at="2015-02-19T12:52:42Z" finished-at="2015-02-19T12:52:51Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@25cd0888]" name="launchBrowser" is-config="true" duration-ms="3418" started-at="2015-02-19T13:02:49Z" finished-at="2015-02-19T13:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="NewPizzaOrderTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@25cd0888]" name="NewPizzaOrderTest" duration-ms="5982" started-at="2015-02-19T13:02:52Z" finished-at="2015-02-19T13:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewPizzaOrderTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@25cd0888]" name="closeBrowser" is-config="true" duration-ms="2741" started-at="2015-02-19T13:02:58Z" finished-at="2015-02-19T13:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- net.intentmedia.internal.pizzaintent.tests.TestOrderPizza -->
+    </test> <!-- Test in Chrome -->
+    <test name="Test in FF" duration-ms="46605" started-at="2015-02-19T18:02:26Z" finished-at="2015-02-19T18:03:12Z">
+      <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@e60e128]" name="launchBrowser" is-config="true" duration-ms="12267" started-at="2015-02-19T13:02:26Z" finished-at="2015-02-19T13:02:38Z">
           <params>
             <param index="0">
               <value>
@@ -178,11 +140,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="NewPizzaOrderTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7a5e1077]" name="NewPizzaOrderTest" duration-ms="4738" started-at="2015-02-19T12:52:51Z" finished-at="2015-02-19T12:52:56Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@e60e128]" name="LoginTest" duration-ms="3987" started-at="2015-02-19T13:02:38Z" finished-at="2015-02-19T13:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@e60e128]" name="closeBrowser" is-config="true" duration-ms="529" started-at="2015-02-19T13:02:42Z" finished-at="2015-02-19T13:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@e60e128]" name="launchBrowser" is-config="true" duration-ms="11229" started-at="2015-02-19T13:02:43Z" finished-at="2015-02-19T13:02:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="AccountPageClickToOrderPizzaTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@e60e128]" name="AccountPageClickToOrderPizzaTest" duration-ms="4026" started-at="2015-02-19T13:02:54Z" finished-at="2015-02-19T13:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountPageClickToOrderPizzaTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@e60e128]" name="closeBrowser" is-config="true" duration-ms="572" started-at="2015-02-19T13:02:58Z" finished-at="2015-02-19T13:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@e60e128]" name="launchBrowser" is-config="true" duration-ms="9169" started-at="2015-02-19T13:02:58Z" finished-at="2015-02-19T13:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="NewPizzaOrderTest()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@e60e128]" name="NewPizzaOrderTest" duration-ms="4441" started-at="2015-02-19T13:03:08Z" finished-at="2015-02-19T13:03:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewPizzaOrderTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@7a5e1077]" name="closeBrowser" is-config="true" duration-ms="467" started-at="2015-02-19T12:52:56Z" finished-at="2015-02-19T12:52:56Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:net.intentmedia.internal.pizzaintent.tests.TestOrderPizza@e60e128]" name="closeBrowser" is-config="true" duration-ms="355" started-at="2015-02-19T13:03:12Z" finished-at="2015-02-19T13:03:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
