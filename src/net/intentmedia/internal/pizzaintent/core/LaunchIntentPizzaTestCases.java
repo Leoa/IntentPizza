@@ -3,6 +3,8 @@ package net.intentmedia.internal.pizzaintent.core;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
+import net.intentmedia.internal.pizzaintent.pageobject.IntentPizzaLoginPageObject;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +17,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
+import util.CommonUtil;
 
 /*
  * Date:2-18-2015
@@ -25,6 +27,7 @@ import org.testng.annotations.Test;
 public class LaunchIntentPizzaTestCases {
 	
 	protected WebDriver driver;
+	IntentPizzaLoginPageObject iplpo;
 	
 	@Parameters({"browser"})
 	@BeforeMethod
@@ -50,10 +53,12 @@ public class LaunchIntentPizzaTestCases {
 			driver= new InternetExplorerDriver(dc);
 		}
 		
+		iplpo = new IntentPizzaLoginPageObject(driver);		
 		//JavascriptExecutor jse = (JavascriptExecutor) driver;
-	    driver.manage().window().maximize();
-	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	   
+	   CommonUtil cu = new CommonUtil();
+	   cu.MaxWindow(driver);
+	   cu.WaitForIt(driver);
 		
 	}
 	
