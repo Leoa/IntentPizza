@@ -19,14 +19,13 @@ public class IntentPizzaAccountPageObject extends LaunchIntentPizzaTestCases {
 	@FindBy(linkText="Edit")
 	public WebElement editLink;
 	
-	@FindBy(xpath="html/body/p[1]")
+	@FindBy(xpath="/html/body/p[1]")
 	public WebElement displayUserName;// contains leondria.barbee@gmail.com
 	
-	@FindBy(xpath="html/body/img")
+	@FindBy(xpath="/html/body/img")
 	public WebElement displayImage;
 	
 	public void clickOrderPizzaLink(){
-		// IntentPizzaLoginPageObject loginPage = new IntentPizzaLoginPageObject(driver);
 		 
 		orderPizzaLink.click();	
 	}

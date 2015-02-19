@@ -1,56 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="3" name="Failed suite [Order Intent Pizza Test]" parallel="tests">
-  <parameter name="browser" value="IE"/>
-  <test name="Test in Chrome(failed)" parallel="tests">
-    <parameter name="browser" value="Chrome"/>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza">
         <methods>
           <include name="LoginTest"/>
-          <include name="OrderPizzaTest"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="launchBrowser"/>
+          <include name="AccountPageClickToOrderPizzaTest"/>
+          <include name="NewPizzaOrderTest"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- net.intentmedia.internal.pizzaintent.tests.TestOrderPizza -->
     </classes>
-  </test> <!-- Test in Chrome(failed) -->
-  <test name="Test in IE(failed)" parallel="tests">
-    <parameter name="browser" value="IE"/>
-    <classes>
-      <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza">
-        <methods>
-          <include name="LoginTest"/>
-          <include name="OrderPizzaTest"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- net.intentmedia.internal.pizzaintent.tests.TestOrderPizza -->
-    </classes>
-  </test> <!-- Test in IE(failed) -->
-  <test name="Test in FF(failed)" parallel="tests">
-    <parameter name="browser" value="FF"/>
-    <classes>
-      <class name="net.intentmedia.internal.pizzaintent.tests.TestOrderPizza">
-        <methods>
-          <include name="LoginTest"/>
-          <include name="OrderPizzaTest"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- net.intentmedia.internal.pizzaintent.tests.TestOrderPizza -->
-    </classes>
-  </test> <!-- Test in FF(failed) -->
-</suite> <!-- Failed suite [Order Intent Pizza Test] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
